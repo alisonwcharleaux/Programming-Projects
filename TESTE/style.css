@@ -1,13 +1,7 @@
- .carousel{
-    position: relative;
-    top: 65px;
-}
-
-
 .carousel-item{
     position: relative;
-    height: 32rem;
-    background: #777;
+    height: 649px;
+    background: black;
     color: white;
 }
 
@@ -29,3 +23,4 @@
     background-size: cover;
     opacity: 0.5;
 }
+
