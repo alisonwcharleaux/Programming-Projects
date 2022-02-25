@@ -18,6 +18,7 @@ nav .navbar{
     align-items: center;
     justify-content: space-between;
 }
+
 nav .navbar .logo a{
     font-size: 25px;
     font-weight:500;
