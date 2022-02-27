@@ -1,3 +1,8 @@
+/*Some imports*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/* navbar CSS */
 nav{
     position: fixed;
     top: 0;
@@ -19,12 +24,74 @@ nav .navbar{
     justify-content: space-between;
 }
 
-nav .navbar .logo a{
+.navbar .title, .logo{
     font-size: 25px;
     font-weight:500;
     color: white;
     text-decoration: none;
-    position: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* box-content CSS */
+.box-content{
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding: 105px 200px;
+}
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 400; 
+}
+
+/* Bottom navbar*/
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+/* carousel */
+
+.carousel{
+    position: relative;
+    display: flex;
+    bottom: 95px;
+    margin-bottom: 350px;
+}
+.carousel-item{
+    position: relative;
+    height: 355px;
+    background: gray;
+    color: white;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+
 
     
